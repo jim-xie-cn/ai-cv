@@ -3,7 +3,7 @@
 
 代码下载（方式1）：https://github.com/jim-xie-cn/ai-cv.git
 
-代码下载（方式2）：git clone git@github.com:jim-xie-cn/ai-cv.git
+代码下载（方式2）：git clone https://github.com/jim-xie-cn/ai-cv.git
 
 交流区：https://github.com/jim-xie-cn/ai-cv/wiki
 
