@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="体重 <= 102.5\nentropy = 2.159\nsamples = 450\nvalue = [11, 20, 60, 65, 119, 175]\nclass = 肥胖"] ;
+1 [label="体重 <= 65.5\nentropy = 2.355\nsamples = 208\nvalue = [11, 20, 60, 54, 45, 18]\nclass = 瘦弱"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="身高 <= 177.5\nentropy = 1.832\nsamples = 63\nvalue = [11, 18, 27, 7, 0, 0]\nclass = 瘦弱"] ;
+1 -> 2 ;
+3 [label="(...)"] ;
+2 -> 3 ;
+16 [label="(...)"] ;
+2 -> 16 ;
+23 [label="身高 <= 177.5\nentropy = 1.996\nsamples = 145\nvalue = [0, 2, 33, 47, 45, 18]\nclass = 正常"] ;
+1 -> 23 ;
+24 [label="(...)"] ;
+23 -> 24 ;
+57 [label="(...)"] ;
+23 -> 57 ;
+70 [label="身高 <= 171.5\nentropy = 1.13\nsamples = 242\nvalue = [0, 0, 0, 11, 74, 157]\nclass = 肥胖"] ;
+0 -> 70 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+71 [label="体重 <= 118.5\nentropy = 0.437\nsamples = 126\nvalue = [0, 0, 0, 1, 9, 116]\nclass = 肥胖"] ;
+70 -> 71 ;
+72 [label="(...)"] ;
+71 -> 72 ;
+79 [label="(...)"] ;
+71 -> 79 ;
+80 [label="体重 <= 137.5\nentropy = 1.303\nsamples = 116\nvalue = [0, 0, 0, 10, 65, 41]\nclass = 过重"] ;
+70 -> 80 ;
+81 [label="(...)"] ;
+80 -> 81 ;
+92 [label="(...)"] ;
+80 -> 92 ;
+}

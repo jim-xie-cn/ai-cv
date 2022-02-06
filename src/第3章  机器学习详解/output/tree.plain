@@ -1,0 +1,31 @@
+graph 1 10.708 5.4583
+node 0 5.3958 4.8819 2.9861 1.1528 "体重 <= 102.5\nentropy = 2.159\nsamples = 450\nvalue = [11, 20, 60, 65, 119, 175]\nclass = 肥胖" rounded box black black
+node 1 3.9375 3.2292 2.7778 1.1528 "体重 <= 65.5\nentropy = 2.355\nsamples = 208\nvalue = [11, 20, 60, 54, 45, 18]\nclass = 瘦弱" rounded box black black
+node 2 1.2292 1.5764 2.4583 1.1528 "身高 <= 177.5\nentropy = 1.832\nsamples = 63\nvalue = [11, 18, 27, 7, 0, 0]\nclass = 瘦弱" rounded box black black
+node 3 0.72917 0.25 0.75 0.5 "(...)" rounded box black black
+node 16 1.7292 0.25 0.75 0.5 "(...)" rounded box black black
+node 23 3.9931 1.5764 2.5694 1.1528 "身高 <= 177.5\nentropy = 1.996\nsamples = 145\nvalue = [0, 2, 33, 47, 45, 18]\nclass = 正常" rounded box black black
+node 24 3.7153 0.25 0.75 0.5 "(...)" rounded box black black
+node 57 4.7153 0.25 0.75 0.5 "(...)" rounded box black black
+node 70 6.8681 3.2292 2.5694 1.1528 "身高 <= 171.5\nentropy = 1.13\nsamples = 242\nvalue = [0, 0, 0, 11, 74, 157]\nclass = 肥胖" rounded box black black
+node 71 6.8125 1.5764 2.3611 1.1528 "体重 <= 118.5\nentropy = 0.437\nsamples = 126\nvalue = [0, 0, 0, 1, 9, 116]\nclass = 肥胖" rounded box black black
+node 72 6.0764 0.25 0.75 0.5 "(...)" rounded box black black
+node 79 7.0764 0.25 0.75 0.5 "(...)" rounded box black black
+node 80 9.4792 1.5764 2.4583 1.1528 "体重 <= 137.5\nentropy = 1.303\nsamples = 116\nvalue = [0, 0, 0, 10, 65, 41]\nclass = 过重" rounded box black black
+node 81 8.9792 0.25 0.75 0.5 "(...)" rounded box black black
+node 92 9.9792 0.25 0.75 0.5 "(...)" rounded box black black
+edge 0 1 4 4.8899 4.3043 4.7756 4.177 4.6533 4.0406 4.5357 3.9096 solid black
+edge 0 70 4 5.9066 4.3043 6.0219 4.177 6.1455 4.0406 6.2642 3.9096 solid black
+edge 1 2 4 2.9979 2.6515 2.7689 2.5141 2.5224 2.3662 2.2883 2.2258 solid black
+edge 1 23 4 3.9568 2.6515 3.9607 2.5355 3.965 2.4121 3.9691 2.2919 solid black
+edge 2 3 4 1.0113 0.99669 0.96468 0.87558 0.91654 0.75053 0.87351 0.63878 solid black
+edge 2 16 4 1.447 0.99669 1.4936 0.87558 1.5418 0.75053 1.5848 0.63878 solid black
+edge 23 24 4 3.872 0.99669 3.8464 0.87693 3.82 0.75331 3.7963 0.64251 solid black
+edge 23 57 4 4.3077 0.99669 4.3773 0.87154 4.4493 0.74219 4.513 0.62765 solid black
+edge 70 71 4 6.8488 2.6515 6.8448 2.5355 6.8406 2.4121 6.8365 2.2919 solid black
+edge 70 80 4 7.774 2.6515 7.9927 2.5154 8.228 2.3689 8.4518 2.2296 solid black
+edge 71 72 4 6.4918 0.99669 6.4208 0.87154 6.3475 0.74219 6.2826 0.62765 solid black
+edge 71 79 4 6.9275 0.99669 6.9518 0.87693 6.9769 0.75331 6.9995 0.64251 solid black
+edge 80 81 4 9.2613 0.99669 9.2147 0.87558 9.1665 0.75053 9.1235 0.63878 solid black
+edge 80 92 4 9.697 0.99669 9.7436 0.87558 9.7918 0.75053 9.8348 0.63878 solid black
+stop
